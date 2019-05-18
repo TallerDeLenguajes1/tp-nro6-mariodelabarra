@@ -1,0 +1,26 @@
+¿String es una tipo por valor o un tipo por referencia?
+
+El tipo String es por referencia.
+
+¿Qué secuencias de escape tiene el tipo string?
+
+* \ ’- comilla simple, necesaria para literales de caracteres
+* \ "- comillas dobles, necesarias para literales de cadena
+* \\ - barra invertida
+* - Carácter Unicode 0
+* \ a - Alerta (carácter 7)
+* \ b - Retroceso (carácter 8)
+* \ f - Feed de formulario (carácter 12)
+* \ n - Nueva línea (carácter 10)
+* \ r - Retorno de carro (carácter 13)
+* \ t - pestaña horizontal (carácter 9)
+* \ v - Cita vertical (carácter 11)
+* \ uxxxx - Secuencia de escape de Unicode para caracteres con valor hexadecimal xxxx
+* \ xn [n] [n] [n] - Secuencia de escape de Unicode para caracteres con valor hexadecimal nnnn (versión de longitud variable de \ uxxxx)
+* \ Uxxxxxxxx - Secuencia de escape de Unicode para caracteres con valor hexadecimal xxxxxxxx (para generar sustitutos)
+
+¿Qué sucede cuando utiliza el carácter @ antes de una cadena de texto?
+
+Las secuencias de escape no se procesan
+
+
